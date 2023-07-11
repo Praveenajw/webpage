@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: yellow;
+	margin: auto;
+	margin-top: 70px;
+	width: 70%;
+	border-radius: 50px;
+	border-style: solid;
+	font-weight: bold;
+	padding: 50px;
+}
+
+header{
+	text-align: center;
+	text-shadow: 1px 1px gray;
+}
+
+form{
+	margin-top: 50px;
+}
+
+input{
+	cursor: pointer;
+}
+
+input[type=text]{
+	padding: 10px 10px;
+	margin: 5px;
+}
+
+input[type=Email]{
+	padding: 10px 10px;
+	margin: 5px;
+}
+
+input[type=number]{
+	padding: 10px 10px;
+	margin: 5px;
+}
+
+input[type=date]{
+	padding: 10px 10px;
+	margin: 5px;
+}
+
+input[type=checkbox]{
+	padding: 10px 10px;
+	margin: 5px;
+}
+
+input[type=radio]{
+	padding: 10px 10px;
+	margin: 5px;
+}
+
+.container h3{
+	text-align: center;
+	text-shadow: 1px 1px white;
+	color: black;
+	border-style: double;
+	margin: 10px;
+}
+
+form p{
+	text-align: center;
+	margin: 20px;
+}
+
+button{
+	text-align: center;
+	padding: 10px 20px;
+	margin: 20px;
+	font-size: 1em;
+	font-family: sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+	transition: .9s ease-in;
+}
+
+.btn:hover{
+	box-shadow: inset 4px 4px 4px red, inset -4px -4px 4px red;
+	background-color: black;
+	color: red;
+}
